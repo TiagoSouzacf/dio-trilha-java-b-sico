@@ -4,7 +4,7 @@ import java.util.function.IntFunction;
 public class Mensagem {
 
     LocalDateTime horaAtual;
-    LocalDateTime dia = (06:00:30);
+    LocalDateTime dia;
     LocalDateTime tarde;
     LocalDateTime noite;
 
