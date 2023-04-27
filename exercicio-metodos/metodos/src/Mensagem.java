@@ -1,5 +1,4 @@
 import java.time.LocalDateTime;
-import java.util.function.IntFunction;
 
 public class Mensagem {
 
@@ -8,13 +7,9 @@ public class Mensagem {
     LocalDateTime tarde;
     LocalDateTime noite;
 
+    public static String mensagemBomDia(LocalDateTime horaAtual) {
 
-    public static String mensagemBomDia(LocalDateTime horaAtual){
-
- 
         return "Bom dia";
     }
 
-    
 }
-
